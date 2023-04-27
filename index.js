@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res, next) => {
-    res.status(200).json({ message: "eccomerce API" });
+    res.status(200).json({ message: "eCommerce API" });
 });
 
 //standard ports
